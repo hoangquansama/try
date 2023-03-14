@@ -1,0 +1,93 @@
+body {
+  background-color: lightgrey;
+}
+
+/* navbar */
+.nav {
+  min-height: 50px;
+  background-color: #c90d0d;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navList {
+  margin: auto 10px;
+  padding-left: 0;
+}
+
+.navItem {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  margin: 0 10px;
+  list-style: none;
+}
+
+h1,h2 {
+  text-align: center;
+}
+/* form */
+.formContainer {
+  max-width: 500px;
+  margin: 50px auto 0 auto;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.formRow {
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.formLabel {
+  font-size: 20px;
+  font-weight: bold;
+  min-width: 100px; /*căn thẳng các label*/
+}
+
+.formInput {
+  flex: 1;
+}
+
+/* column layout */
+.wrapper {
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+}
+
+.columnItem {
+  padding: 0 10px;
+  flex: 1;
+}
+
+.main {
+  flex: 3;
+}
+
+/* feature layout */
+.featureContainer {
+  margin-top: 50px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.feature {
+  padding: 20px;
+  flex-basis: 20%;
+}
+
+.feature:nth-child(1) {
+  background-color: aqua;
+}
+
+.feature:nth-child(2) {
+  background-color: lightcoral;
+}
+
+.feature:nth-child(3) {
+  background-color: lightgreen;
+}
